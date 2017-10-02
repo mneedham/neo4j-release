@@ -2,7 +2,9 @@
 name: neo4j
 
 templates:
-  ctl.bash: bin/ctl
+  stop_ctl.bash: bin/stop_ctl
+  start_ctl.bash: bin/start_ctl
+  common.bash: bin/common.bash
   neo4j.conf.erb: conf/neo4j.conf
 
 packages:
