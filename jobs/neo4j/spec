@@ -3,7 +3,10 @@ name: neo4j
 
 templates:
   ctl.bash: bin/ctl
+  neo4j.conf.erb: conf/neo4j.conf
 
-packages: []
+packages:
+  - neo4j
+  - openjdk_1.8.0
 
 properties: {}

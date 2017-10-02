@@ -1,1 +1,6 @@
-name: neo4j
+---
+blobstore:
+  provider: local
+  options:
+    blobstore_path: blobs
+final_name: neo4j
