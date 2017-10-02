@@ -1,0 +1,9 @@
+---
+name: neo4j
+
+templates:
+  ctl.bash: bin/ctl
+
+packages: []
+
+properties: {}
