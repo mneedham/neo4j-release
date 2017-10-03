@@ -1,6 +1,7 @@
 ---
 blobstore:
-  provider: local
+  provider: s3
   options:
-    blobstore_path: blobs
-final_name: neo4j
+    bucket_name: bosh-blobs.neo4j.com
+    region: eu-west-1
+    endpoint: https://s3-eu-west-1.amazonaws.com
