@@ -5,3 +5,4 @@ blobstore:
     bucket_name: bosh-blobs.neo4j.com
     region: eu-west-1
     endpoint: https://s3-eu-west-1.amazonaws.com
+final_name: neo4j
